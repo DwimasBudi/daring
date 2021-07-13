@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+body{
+	font-weight: normal;
+	font-family: 'Quicksand', sans-serif;
+}
+a {
+	text-decoration: none;
+} 
+.judul h1{
+ 	font-weight: bold;
+ }
+.nav span{
+	color: white;
+}
+.spacer{
+	padding: 10px 0px; 
+	height: 1px;
+}
+
+.judul h1{
+	font-size: 38px;
+	text-align: center;
+}
+.pic{
+	margin:0 auto;
+		width: 100%;
+	text-align: center;
+}
+
+#Tidak{
+	position:absolute;
+	left: 52%; 
+	text-align: center;
+	
+}
+#Ya{
+	position:absolute; 
+	left: 35%;
+	text-align: center;	
+}
+.space{
+	width: 100%;
+	height: 90px;
+
+}
+.blue{
+	width:200px; 
+	font-weight: bold;
+	background-color: #00bfff;
+	text-align: center;
+}
+.red{
+	width:200px; 
+	font-weight: bold; 
+	background-color: red;
+	text-align: center
+}
+@media only screen and (max-width: 600px) {
+ .judul h1{
+ 	font-size: 28px;
+ 	font-weight: bold;
+ }
+ #Tidak{
+	position:absolute;
+	left: 55%; 
+	text-align: center;
+	
+}
+#Ya{
+	position:absolute; 
+	left: 15%;
+	text-align: center;	
+}
+.blue{
+	width:120px; 
+}
+.red{
+	width:120px; 
+
+}
+
+
+}
