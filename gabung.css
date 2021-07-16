@@ -2,7 +2,7 @@
 body{
 	font-weight: normal;
 	font-family: 'Quicksand', sans-serif;
-	background-color: black;
+	background-color: #E6E6E6;
 }
 a {
 	text-decoration: none;
@@ -11,14 +11,13 @@ a {
 
 p{
 	font-weight: bold;
-	color: white;
+	color: black;
 }
 h4{
-	color: white;
+	color: black;
 }
-h1{
+h3,h1 {
 	font-weight: bold;
-	color: white;
 }
 .judul h1{
  	font-weight: bold;
@@ -91,9 +90,25 @@ titik{
 .lanjut{
 	text-align: center;
 	margin:0 auto;
+	background-color: magenta;
+	width:200px; 
+	font-weight: bold;
+}
+.bait{
+	text-align: center;
+	margin:0 auto;
+	background-color: blue;
+	width:200px; 
+	font-weight: bold;
 }
 .tombol{
 	width: 100%;
+	margin: 0 auto;
+}
+.video{
+	width: 100%;
+	padding: 10px 10px 10px 10px;
+	text-align: center;
 	margin: 0 auto;
 }
 @media only screen and (max-width: 600px) {
@@ -112,6 +127,17 @@ titik{
 	left: 15%;
 	text-align: center;	
 }
+#Puas{
+	position:absolute; 
+	left: 15%;
+	text-align: center;	
+}
+#No{
+	position:absolute;
+	left: 55%; 
+	text-align: center;
+	
+}
 .blue{
 	width:120px; 
 }
@@ -119,6 +145,8 @@ titik{
 	width:120px; 
 
 }
-
+.footer span{
+	font-size: 10px;
+}
 
 }
