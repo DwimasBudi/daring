@@ -83,6 +83,16 @@ flag=1
                   flag=1
               }
       }
+var source = "hati2.mp3"
+var audio = document.createElement("audio");
+ //
+ audio.autoplay = true;
+ //
+ audio.load()
+ audio.addEventListener("load", function() { 
+     audio.play(); 
+ }, true);
+ audio.src = source;
 
 if (window.matchMedia('(max-width: 600px)').matches)
 {
@@ -91,14 +101,14 @@ if (window.matchMedia('(max-width: 600px)').matches)
       {
           if(flag==1)
               {
-                  Ya.style.top=200
-                  Ya.style.left=300
+                  Ya.style.top=300
+                  Ya.style.left=200
                   flag=2
               }
           else if(flag==2)
               {
-                  Ya.style.top=440
-                  Ya.style.left=100
+                  Ya.style.top=507
+                  Ya.style.left=65
                   flag=3
               }
           else if(flag==3)
@@ -115,8 +125,8 @@ if (window.matchMedia('(max-width: 600px)').matches)
               }
           else if(flag==5)
               {
-                  Ya.style.top=440
-                  Ya.style.left=100
+                  Ya.style.top=507
+                  Ya.style.left=65
                   flag=6
               }
           else if(flag==6)
@@ -131,14 +141,14 @@ flag=1
       {
           if(flag==1)
               {
-                  No.style.top=200
-                  No.style.left=300
+                  No.style.top=107
+                  No.style.left=100
                   flag=2
               }
           else if(flag==2)
               {
-                  No.style.top=321
-                  No.style.left=100
+                  No.style.top=507
+                  No.style.left=200
                   flag=3
               }
           else if(flag==3)
@@ -155,8 +165,8 @@ flag=1
               }
           else if(flag==5)
               {
-                  No.style.top=200
-                  No.style.left=100
+                  No.style.top=507
+                  No.style.left=200
                   flag=6
               }
           else if(flag==6)
