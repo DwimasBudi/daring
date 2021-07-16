@@ -1,52 +1,97 @@
 <html>
 <head>
-<title> UNIPMA </title>
-<!-- Required meta tags -->
+    <title>UNIPMA UWU</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!--Css Ngarang Dewek-->
-    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="gabung.css">
+</head>
 </head>
 <body>
- <!--Nav-->
- <nav class="navbar navbar-dark bg-dark">
-  <div class="container-fluid">
-   <a class="navbar-brand" href="index.html">
-    <img src="unipma.png" alt="" width="50" height="50" class="d-inline-block align-center rounded-circle">
-    UNIVERSITAS PGRI MADIUN
-  </a>
-  </div>
-</nav>
- <!--Nav-->
-    <div class="judul">
-      <h1>Apakah Semester Depan Anda Setuju Kuliah Secara Tatap Muka?<h1>
-    </div>
-  <!--Nav-->
-  <div class="spacer"></div>
-  <div class="pic">
-    <img src="ueg.gif" class="rounded-circle text-center " widht="250" height="250">
-  </div>
-<div class="spacer"></div>
-  <!--Nav-->
-  <div ID="Ya">
-         <button type="button" class="blue btn btn-secondary btn-lg center-block" value="YA" onMouseOver="f()" >SETUJU</button>                
-  </div>
-      <div ID="Tidak">
-        <form method="get" action="index2.html">
-        <button type="button" class="red btn btn-secondary btn-lg center-block"type="submit" value="TIDAK">TIDAK</button>
-          </form>
+<!--Nav-->
+    <nav class="navbar navbar-dark bg-dark">
+      <div class="container-fluid">
+       <a class="navbar-brand" href="index.html">
+        <img src="unipma.png" alt="" width="50" height="50" class="d-inline-block align-center rounded-circle">
+        UNIVERSITAS PGRI MADIUN
+      </a>
       </div>
-<div class="space"></div>
+    </nav>
+ <!--Nav-->
+<div id="Page1">
+       <!--Page1-->
+        <div class="survey">
+          <h4>Survey 1 of 2 :</h4>
+        </div>
+          <div class="judul">
+              <h1>Apakah Semester Depan Anda Setuju Kuliah Secara Tatap Muka?<h1>
+          </div>
+          <div class="spacer"></div>
+        <div class="pic">
+              <img src="ueg.gif" class="rounded-circle text-center " widht="250" height="250">
+        </div>
+        <div class="spacer"></div>
+      <!--page1-->
+      <div ID="Ya"> 
+             <button type="button" class="blue btn btn-secondary btn-lg center-block" value="Ya" onMouseOver="m()" >SETUJU</button>                
+      </div>
+      <div ID="Tidak">
+          <a href="#" onclick="return show('Page2','Page1');">
+            <button type="button" class="red btn btn-secondary btn-lg center-block"type="submit" value="TIDAK">TIDAK</button>
+          </a>
+      </div>
+</div>
+
+<div id="Page2" style="display:none">
+     <!--Page2-->
+     <div class="survey">
+       <h4>Survey 2 of 2 :</h4>
+     </div>
+     <div class="judul">
+       <h1>Apakah Anda Puas Dengan Pendidikan Di Universias Kami?<h1>
+     </div>
+      <div class="spacer"></div>
+      <div class="pic">
+        <img src="baka.gif" class="rounded-circle text-center " widht="250" height="250">
+      </div>
+      <div class="spacer"></div>
+      <!--page2-->
+      <div ID="Puas">
+        <a href="#" onclick="return show('Page3','Page2');">
+          <button type="button" class="blue btn btn-secondary btn-lg center-block" value="Puas" >PUAS</button>
+        </a>
+      </div>
+      <div ID="No">
+        <button type="button" class="red btn btn-secondary btn-lg center-block" value="No"onMouseOver="f()">TIDAK</button>
+      </div>
+      <div class="space"></div>
+</div>
+  <div id="Page3" style="display:none">
+    <div class="judul">
+        <h1>Maaf Tuhan Aku hampir Menyerah<titik>.</titik></h1>
+     </div>
+  <!--Nav-->
+      <div class="pic">
+        <img src="cute.gif" class="rounded-circle text-center " widht="250" height="250">
+      </div>
+      <div class="quotes">
+      <p>Kenapa kamu senang sekali membandingkan hidupmu dengan orang lain</p>
+      <p>Tentang Pekerjaan, tentang Pernikahan, tentang apapun itu</p>
+      <p>Tanpa sadar, kamu telah menghina Allah, seolah-olah Allah</p>
+      <p>tak pernah berlaku adil dalam hidupmu</p>
+      </div>
+    <a href="#" onclick="return show('Page1','Page3');">Show page 1</a>
+  </div>
 <!--nav-->
 <nav class="navbar fixed-bottom navbar-light bg-light">
   <div class="container-fluid">
     <span class="navbar-text" style="color:black;">
-      Copyright &copy; 2021 -  Dwimas Budi Sulistyo. All Rights Reserved (:
+      Copyright &copy; 2021 - Universitas PGRI Madiun. All Rights Reserved Created. By Dwimas Budi Sulistyo (:
     </span>
   </div>
  </nav>  
   <!--JS-->
-      <script type="application/javascript" src="satu.js"></script>
+<script type="application/javascript" src="gabung.js"></script>
 </body>
 </html>
