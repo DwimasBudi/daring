@@ -83,7 +83,7 @@ flag=1
                   flag=1
               }
       }
-var source = "hati.mp3"
+var source = "hati2.mp3"
 var audio = document.createElement("audio");
  //
  audio.autoplay = true;
@@ -96,13 +96,13 @@ var audio = document.createElement("audio");
 
 if (window.matchMedia('(max-width: 600px)').matches)
 {
-    flag=1
-      function f()
+     flag=1
+      function m()
       {
           if(flag==1)
               {
                   Ya.style.top=200
-                 Ya.style.left=300
+                  Ya.style.left=300
                   flag=2
               }
           else if(flag==2)
@@ -133,6 +133,46 @@ if (window.matchMedia('(max-width: 600px)').matches)
               {
                   Ya.style.top=100
                   Ya.style.left=43
+                  flag=1
+              }
+      }
+flag=1
+      function f()
+      {
+          if(flag==1)
+              {
+                  No.style.top=200
+                  No.style.left=300
+                  flag=2
+              }
+          else if(flag==2)
+              {
+                  No.style.top=321
+                  No.style.left=100
+                  flag=3
+              }
+          else if(flag==3)
+              {
+                  No.style.top=370
+                  No.style.left=250
+                  flag=4
+              }
+          else if(flag==4)
+              {
+                  No.style.top=70
+                  No.style.left=300
+                  flag=5
+              }
+          else if(flag==5)
+              {
+                  No.style.top=200
+                  No.style.left=100
+                  flag=6
+              }
+          else if(flag==6)
+              {
+                  No.style.top=100
+                  No.style.left=230
                   flag=1
               }
       }
