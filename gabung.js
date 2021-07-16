@@ -83,16 +83,6 @@ flag=1
                   flag=1
               }
       }
-var source = "hati222adad1.mp3"
-var audio = document.createElement("audio");
- //
- audio.autoplay = true;
- //
- audio.load()
- audio.addEventListener("load", function() { 
-     audio.play(); 
- }, true);
- audio.src = source;
 
 if (window.matchMedia('(max-width: 600px)').matches)
 {
