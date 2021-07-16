@@ -2,7 +2,7 @@
 body{
 	font-weight: normal;
 	font-family: 'Quicksand', sans-serif;
-	background-color: #E6E6E6;
+	background-color: #e5e5e5;
 }
 a {
 	text-decoration: none;
@@ -78,26 +78,26 @@ titik{
 .blue{
 	width:200px; 
 	font-weight: bold;
-	background-color: #00bfff;
+	background-color: #2a9d8f;
 	text-align: center;
 }
 .red{
 	width:200px; 
 	font-weight: bold; 
-	background-color: red;
+	background-color: #e76f51;
 	text-align: center
 }
 .lanjut{
 	text-align: center;
 	margin:0 auto;
-	background-color: magenta;
+	background-color: #2a9d8f;
 	width:200px; 
 	font-weight: bold;
 }
 .bait{
 	text-align: center;
 	margin:0 auto;
-	background-color: blue;
+	background-color: #e76f51;
 	width:200px; 
 	font-weight: bold;
 }
